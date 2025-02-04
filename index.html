@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mujahid's Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+        <form class="form">
+            <input type="text" class="user-input" placeholder="Enter City,Country or Latitude Longitude">
+            <button class="search-button"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </form>
+
+
+        <div class="img-container">
+            <img src="images/02d.png" alt="Weather Image" class="condition-img">
+        </div>
+
+        <div class="country">
+            <h2 class="country-name">Dhaka</h2>
+            <img src="https://flagsapi.com/BD/shiny/64.png" class="flag">
+        </div>
+
+        <h3 class="condition">Clowdy</h3>
+        <h1 class="degree">29<span class="degree-icon">°</span></h1>
+        <div class="lower-info">
+            <div class="humidity">
+                <i class="fa-solid fa-droplet"></i>
+                <h3 class="humidity-value">30%</h3>
+                <p class="humidity-txt">Humidity</p>
+            </div>
+            <div class="wind">
+                <i class="fa-solid fa-wind"></i>
+                <h3 class="wind-speed">23km/h</h3>
+                <p class="wind-txt">Wind Speed.</p>
+            </div>
+        </div>
+
+        <div class="yellow-circle">
+            
+        </div>
+        <div class="blue-circle">
+            
+        </div>
+
+
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
